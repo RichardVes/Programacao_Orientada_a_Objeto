@@ -156,4 +156,5 @@ print(joao.andar())
 Exercícios Práticos:
 Crie uma classe Círculo com atributos raio e métodos para calcular área e perímetro.
 Modele uma classe Retângulo com atributos largura e altura e métodos para calcular área e perímetro.
+
 Desafio: Crie uma classe Contato para uma agenda telefônica, com atributos nome, telefone e email, e métodos para exibir informações.

@@ -1,5 +1,3 @@
-# Programacao_Orientada_a_Objeto
+# Disciplina de Programacao Orientada a Objeto
 
-## Adicionado dentro do projeto principal
-
-Teste automatico
+## Conteudo das aulas
