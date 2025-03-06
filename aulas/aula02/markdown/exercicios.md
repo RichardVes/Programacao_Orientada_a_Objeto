@@ -1,29 +1,4 @@
-# Conceitos Fundamentais
-
-## 1. Classe
-
-Uma classe é um modelo para criar objetos. Define os atributos e métodos que os objetos daquela classe terão.
-
-```python
-class Pessoa:
-    def __init__(self, nome, idade):
-        self.nome = nome
-        self.idade = idade
-
-    def apresentar(self):
-        print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos.")
-```
-
-## 2. Objeto
-
-Um objeto é uma instância de uma classe.
-
-```python
-pessoa1 = Pessoa("Alice", 25)
-pessoa1.apresentar()
-```
-
-### Exercicios
+# Exercicios
 
 1. Criando uma Classe Carro
    Crie uma classe chamada Carro com os atributos marca, modelo e ano. Depois, crie um objeto dessa classe e exiba seus atributos.
@@ -45,15 +20,3 @@ pessoa1.apresentar()
    Crie uma classe Produto com os atributos nome e preco. Adicione um método aplicar_desconto(percentual) que reduz o preço com base no percentual informado.
 10. Criando uma Classe Pessoa com um Método de Aniversário
     Crie uma classe Pessoa com os atributos nome e idade. Adicione um método fazer_aniversario() que aumenta a idade da pessoa em 1 ano.
-
-Desafio: Gerenciador de Tarefas
-Crie um sistema de Gerenciador de Tarefas utilizando somente classes e objetos. O sistema deve permitir:
-
-Criar tarefas com descrição e status (pendente ou concluída).
-Alterar o status da tarefa (de pendente para concluída).
-Listar todas as tarefas e indicar quais já foram concluídas.
-Regras:
-
-O código deve usar apenas classes e objetos
-O usuário pode criar até três tarefas.
-As tarefas devem ser exibidas de maneira organizada.
