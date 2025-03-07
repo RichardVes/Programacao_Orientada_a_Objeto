@@ -4,10 +4,10 @@
 
 Crie um sistema de Gerenciador de Tarefas utilizando somente classes e objetos. O sistema deve permitir:
 
-Criar tarefas com descrição e status (pendente ou concluída).
-Alterar o status da tarefa (de pendente para concluída).
-Listar todas as tarefas e indicar quais já foram concluídas.
-Regras:
+    Criar tarefas com descrição e status (pendente ou concluída).
+    Alterar o status da tarefa (de pendente para concluída).
+    Listar todas as tarefas e indicar quais já foram concluídas.
+    Regras:
 
 O código deve usar apenas classes e objetos
 O usuário deve criar pelo menos três tarefas.
@@ -19,14 +19,16 @@ Você foi contratado para desenvolver um sistema de gestão de contas bancárias
 
 Requisitos:
 
-Crie uma classe ContaBancaria com os seguintes atributos:
-**Nome do titular
-**Número da conta
-Saldo inicial (começa em 0)
-Implemente os seguintes métodos na classe:
-depositar(valor): Adiciona o valor ao saldo da conta.
-sacar(valor): Reduz o saldo da conta, mas só se houver saldo suficiente.
-consultar_saldo(): Exibe o saldo da conta.
+    Crie uma classe ContaBancaria com os seguintes atributos:
+    **Nome do titular
+    **Número da conta
+    Saldo inicial (começa em 0)
+
+    Implemente os seguintes métodos na classe:
+    depositar(valor): Adiciona o valor ao saldo da conta.
+    sacar(valor): Reduz o saldo da conta, mas só se houver saldo suficiente.
+    consultar_saldo(): Exibe o saldo da conta.
+
 No programa principal:
 Crie pelo menos duas contas bancárias.
 Realize depósitos, saques e consulte os saldos das contas.
@@ -37,16 +39,19 @@ Você foi contratado por uma desenvolvedora indie para criar um sistema básico 
 
 Requisitos:
 
-Crie uma classe chamada Personagem com os seguintes atributos:
-Nome
-Classe (ex: Guerreiro, Mago, Arqueiro)
-Vida (valor inicial: 100)
-Ataque
-Defesa
-Implemente os seguintes métodos na classe:
-atacar(outro_personagem): Reduz a vida do outro personagem com base no ataque do atacante e na defesa do alvo.
-defender(): Aumenta temporariamente a defesa do personagem.
-exibir_status(): Mostra as informações do personagem na tela.
+    Crie uma classe chamada Personagem com os seguintes atributos:
+    Nome
+    Classe (ex: Guerreiro, Mago, Arqueiro)
+    Vida (valor inicial: 100)
+    Ataque
+    Defesa
+
+    Implemente os seguintes métodos na classe:
+
+    atacar(outro_personagem): Reduz a vida do outro personagem com base no ataque do atacante e na defesa do alvo.
+    defender(): Aumenta temporariamente a defesa do personagem.
+    exibir_status(): Mostra as informações do personagem na tela.
+
 Crie pelo menos dois personagens e simule um combate entre eles, utilizando os métodos implementados.
 
 ## Enunciado 4 : Sistema de Biblioteca Digital
@@ -55,18 +60,24 @@ Você foi contratado para desenvolver um sistema de gerenciamento de biblioteca 
 
 Requisitos:
 
-Crie uma classe Livro com os seguintes atributos:
-Título
-Autor
-Ano de publicação
-Disponível (True/False)
-Implemente os seguintes métodos na classe Livro:
-emprestar(): Define o livro como indisponível se ele estiver disponível.
-devolver(): Define o livro como disponível novamente.
-exibir_detalhes(): Exibe as informações do livro.
-Crie uma classe Biblioteca com os seguintes atributos e métodos:
-Atributo: Lista de livros cadastrados.
-Métodos:
-adicionar_livro(livro): Adiciona um livro à biblioteca.
-listar_livros_disponiveis(): Exibe todos os livros disponíveis para empréstimo.
+    Crie uma classe Livro com os seguintes atributos:
+
+    Título
+    Autor
+    Ano de publicação
+    Disponível (True/False)
+
+    Implemente os seguintes métodos na classe
+    Livro:
+    emprestar(): Define o livro como indisponível se ele estiver disponível.
+    devolver(): Define o livro como disponível novamente.
+    exibir_detalhes(): Exibe as informações do livro.
+
+    Crie uma classe Biblioteca com os seguintes atributos e métodos:
+    Atributo: Lista de livros cadastrados.
+
+    Métodos:
+    adicionar_livro(livro): Adiciona um livro à biblioteca.
+    listar_livros_disponiveis(): Exibe todos os livros disponíveis para empréstimo.
+
 No programa principal, crie pelo menos três livros, adicione-os à biblioteca e simule o empréstimo e a devolução de um deles.
