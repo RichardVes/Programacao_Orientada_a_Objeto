@@ -20,8 +20,8 @@ Você foi contratado para desenvolver um sistema de gestão de contas bancárias
 Requisitos:
 
 Crie uma classe ContaBancaria com os seguintes atributos:
-Nome do titular
-Número da conta
+**Nome do titular
+**Número da conta
 Saldo inicial (começa em 0)
 Implemente os seguintes métodos na classe:
 depositar(valor): Adiciona o valor ao saldo da conta.

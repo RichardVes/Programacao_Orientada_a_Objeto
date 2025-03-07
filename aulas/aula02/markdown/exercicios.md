@@ -1,5 +1,7 @@
 # Exercicios
 
+---
+
 1. Criando uma Classe Carro
    Crie uma classe chamada Carro com os atributos marca, modelo e ano. Depois, crie um objeto dessa classe e exiba seus atributos.
 2. Classe Retângulo com Método para Calcular Área
