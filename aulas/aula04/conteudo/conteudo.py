@@ -6,7 +6,7 @@ class Personagem:
     
 class Mago(Personagem):
     def __init__(self, nome,dano):
-        super().__init__(nome)
+      super().__init__(nome)  
         self.dano=dano
 
     def BoladeFogo(self):

@@ -118,7 +118,8 @@ class Esportivo(Carro):
 
 ### Exercício 1: Criando uma Hierarquia de Veículos
 
-Crie uma classe **Veiculo** com os atributos `marca` e `ano`. Em seguida, crie as subclasses **Carro** e **Moto**, que herdam de `Veiculo`. Ambas devem ter um método `info()` que exibe as informações do veículo.
+**Crie uma classe **Veiculo** com os atributos `marca` e `ano`. Em seguida, crie as subclasses **Carro** e **Moto**, que herdam de `Veiculo`. Ambas devem ter um método `info()` que exibe as informações do veículo.
+**
 
 ### Exercício 2: Herança Multinível
 
@@ -126,6 +127,6 @@ Crie uma classe **Funcionario** com os atributos `nome` e `salario`. Depois, cri
 
 ### Exercício 3: Reescrevendo Métodos
 
-Crie uma classe **InstrumentoMusical** com um método `tocar()`. Depois, crie as subclasses **Guitarra** e **Bateria**, sobrescrevendo o método `tocar()` para exibir uma mensagem diferente para cada instrumento.
-
----
+**Crie uma classe **InstrumentoMusical** com um método `tocar()`. Depois, crie as subclasses **Guitarra** e **Bateria**, sobrescrevendo o método `tocar()` para exibir uma mensagem diferente para cada instrumento.
+**
+---\*\*\*\*
